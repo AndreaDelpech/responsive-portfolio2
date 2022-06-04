@@ -5,12 +5,14 @@
 }
 body {
   margin: 100px 0;
+  font-family: "Playfair Display", serif;
 }
 
 h1,
 h2,
 h3 {
   margin: 0;
+  font-family: "Playfair Display", serif;
 }
 
 h1 {
@@ -29,6 +31,8 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
 }
 
 .navigation-links {
@@ -83,6 +87,7 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  font-family: "Playfair Display", serif;
 }
 
 .email-link:hover {
