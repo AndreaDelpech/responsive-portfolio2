@@ -35,15 +35,15 @@ p {
   font-weight: normal;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 60px;
   line-height: 60px;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 24px;
   text-align: left;
 }
-.about-section p {
+.content-container p {
   font-size: 16px;
   text-align: left;
 }
