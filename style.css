@@ -35,6 +35,37 @@ p {
   font-weight: normal;
 }
 
+.about-section h1 {
+  font-size: 60px;
+  line-height: 60px;
+}
+.about-section h2 {
+  font-size: 24px;
+  text-align: left;
+}
+.about-section p {
+  font-size: 16px;
+  text-align: left;
+}
+.img-fluid {
+  max-width: 70%;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+.about-link {
+  border-radius: 4px;
+  margin-top: 1px;
+  padding: 8px 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.about-link:hover {
+  color: white;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
