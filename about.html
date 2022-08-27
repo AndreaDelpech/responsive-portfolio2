@@ -32,55 +32,96 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Andrea Delpech</title>
+    <title>About Andrea Delpech</title>
   </head>
+
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="index.html" title="Homepage"
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Andrea Delpech" class="logo d-none d-md-block"
           >Andrea Delpech</a
         >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="about.html" title="">About Me</a>
-            <a class="nav-link" href="work.html" title="">My Projects</a>
-            <a class="nav-link" href="contact.html" title="">Contact Me</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+        <a href="/" title="Andrea Delpech" class="logo d-block d-md-none">AD</a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Andrea"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Andrea's work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Andrea"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="row">
-        <div class="col-md-6">
-          <div class="content-container-content">
-            <h1 class="mt-5 mb-4">Hi, I am Andrea Delpech</h1>
-            <h2 class="mb-4">
-              Frontend Developer, based in Vancouver, Canada.
-            </h2>
+        <div class="col-lg-6">
+          <div class="content">
+            <h1 class="mb-4">Hi, I’m Andrea Delpech</h1>
+            <h2 class="mb-4">Front-end developer based in Vancouver, Canada</h2>
             <p class="mb-5">
-              For anyone who wants to start learning code, this workshop is very
-              interesting. You will be challenged with different exercises, and
-              everything is well explained, homework and deadlines are good for
-              keep focus
+              I’m currently seeking new opportunities in front-end development.
+              I’m open to work remotely and have flexible hours. I’m highly
+              skilled in JavaScript and React.
             </p>
-            <a href="" class="about-link">See my projects</a>
+            <a href="/work.html" class="btn btn-branding">See my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/AndreaDelpech.jpg" alt="" class="img-fluid" />
+          <img
+            src="images/AndreaDelpech.jpg"
+            alt=""
+            class="pic-andrea img-fluid"
+          />
         </div>
       </div>
     </div>
+
+    <footer class="footer">
+      <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:delpech.andrea@gmail.com" class="email-link"
+          >delpech.andrea@gmail.com
+        </a>
+      </div>
+
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/andydelpech/"
+          target="_blank"
+          title="Instagram"
+        >
+          <i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://github.com/AndreaDelpech"
+          target="_blank"
+          title="Github"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/andrea-delpech/"
+          target="_blank"
+          title="LinkedIn"
+        >
+          <i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+
+      <p class="text-center mt-5">
+        ✌️ This website was coded by Andrea Delpech, and is
+        <a
+          href="https://github.com/AndreaDelpech/responsive-portfolio2"
+          target="_blank"
+        >
+          open-sourced
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
