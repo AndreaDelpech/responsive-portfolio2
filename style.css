@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 h3 {
@@ -34,6 +34,14 @@ p {
   line-height: 1.5;
   font-family: "Playfair Display", serif;
   font-weight: normal;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+.project-container {
+  padding: 10px 10px 10px 10px;
 }
 
 .content-container h1 {
