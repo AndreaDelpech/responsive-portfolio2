@@ -80,7 +80,6 @@ p {
 .content h3 {
   font-size: 24px;
   line-height: 1.5;
-
   font-family: var(--heading-font-family);
 }
 
@@ -111,7 +110,12 @@ p {
 }
 
 .project-desciption {
-  padding: 120px 60px;
+  padding: 60px 60px;
+}
+
+.weather {
+  text-align: right;
+  padding: 0px 60px;
 }
 
 .logo {
@@ -121,6 +125,15 @@ p {
 .pic-andrea {
   max-width: 60%;
   border-radius: 40px;
+}
+
+.projects-pic {
+  padding: 140px 60px 140px 120px;
+  max-width: 120%;
+}
+
+.cf-work {
+  padding: 0px 0px 39px;
 }
 
 nav {
