@@ -196,7 +196,7 @@ footer .social-links a:hover {
   }
 
   h2 {
-    font-size: 44px;
+    font-size: 38px;
   }
 
   h3 {
@@ -211,5 +211,9 @@ footer .social-links a:hover {
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+  .content h1 {
+    font-size: 40px;
+    line-height: 40px;
   }
 }
